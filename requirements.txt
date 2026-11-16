@@ -1,0 +1,19 @@
+# Appium / Selenium  (TouchAction 은 Appium-Python-Client 4.x 에서 제거되어 3.x 로 고정)
+Appium-Python-Client>=3.1,<4
+selenium>=4.12
+
+# 리포팅 연동
+openai>=1.0
+jira>=3.5
+gspread>=5.12
+python-telegram-bot>=20.0
+python-dotenv>=1.0
+
+# 데스크톱 런처 / 웹 트리거
+PyQt6>=6.5
+qt-material>=2.14
+openpyxl>=3.1
+Flask>=3.0
+
+# TC 초안 생성 도구
+PyPDF2>=3.0

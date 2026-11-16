@@ -1,0 +1,20 @@
+# Secrets
+.env
+secrets/
+*service-account*.json
+data/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime output
+data/progress.txt
+data/error_log.txt
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
